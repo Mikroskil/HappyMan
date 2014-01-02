@@ -1,11 +1,11 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\Windows\system32\stdole2.tlb#OLE Automation
-Form=formutama.frm
+Form=..\..\Revisi 2.2\revisi 2_2.frm
 Startup="frmUtama"
 HelpFile=""
 Title="Projecttrafficlight"
 Command32=""
-Name="revisi2"
+Name="revisi2_2"
 HelpContextID="0"
 CompatibleMode="0"
 MajorVer=1

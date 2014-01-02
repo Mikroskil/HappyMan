@@ -3,10 +3,10 @@ Begin VB.Form frmUtama
    BackColor       =   &H00C0C0C0&
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "TUGAS PROJECT PKTI"
-   ClientHeight    =   8835
+   ClientHeight    =   7140
    ClientLeft      =   45
    ClientTop       =   435
-   ClientWidth     =   13365
+   ClientWidth     =   7650
    BeginProperty Font 
       Name            =   "MS Sans Serif"
       Size            =   9.75
@@ -19,45 +19,15 @@ Begin VB.Form frmUtama
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   8835
-   ScaleWidth      =   13365
+   ScaleHeight     =   7140
+   ScaleWidth      =   7650
    ShowInTaskbar   =   0   'False
    StartUpPosition =   2  'CenterScreen
    Begin VB.Timer tmrArah 
       Enabled         =   0   'False
-      Index           =   1
       Interval        =   1
-      Left            =   11760
+      Left            =   240
       Top             =   1800
-   End
-   Begin VB.CommandButton Command3 
-      Height          =   255
-      Left            =   8040
-      TabIndex        =   47
-      Top             =   4800
-      Width           =   855
-   End
-   Begin VB.CommandButton Command2 
-      Height          =   255
-      Left            =   5040
-      TabIndex        =   46
-      Top             =   4800
-      Width           =   855
-   End
-   Begin VB.CommandButton Command1 
-      Height          =   735
-      Index           =   0
-      Left            =   7800
-      TabIndex        =   45
-      Top             =   2280
-      Width           =   255
-   End
-   Begin VB.Timer tmrArah 
-      Enabled         =   0   'False
-      Index           =   0
-      Interval        =   1
-      Left            =   2880
-      Top             =   1560
    End
    Begin VB.PictureBox picArah 
       Appearance      =   0  'Flat
@@ -66,11 +36,11 @@ Begin VB.Form frmUtama
       ForeColor       =   &H80000008&
       Height          =   735
       Index           =   3
-      Left            =   7200
+      Left            =   3240
       ScaleHeight     =   735
       ScaleWidth      =   375
       TabIndex        =   43
-      Top             =   6000
+      Top             =   5040
       Width           =   375
       Begin VB.Label lblArahAnim 
          AutoSize        =   -1  'True
@@ -102,11 +72,11 @@ Begin VB.Form frmUtama
       ForeColor       =   &H80000008&
       Height          =   255
       Index           =   2
-      Left            =   360
+      Left            =   480
       ScaleHeight     =   255
       ScaleWidth      =   1335
       TabIndex        =   41
-      Top             =   3720
+      Top             =   2760
       Width           =   1335
       Begin VB.Label lblArahAnim 
          AutoSize        =   -1  'True
@@ -125,7 +95,7 @@ Begin VB.Form frmUtama
          ForeColor       =   &H00000000&
          Height          =   450
          Index           =   0
-         Left            =   840
+         Left            =   240
          TabIndex        =   42
          Top             =   -120
          Width           =   1095
@@ -138,7 +108,7 @@ Begin VB.Form frmUtama
       ForeColor       =   &H80000008&
       Height          =   615
       Index           =   1
-      Left            =   7200
+      Left            =   3960
       ScaleHeight     =   615
       ScaleWidth      =   375
       TabIndex        =   39
@@ -148,7 +118,7 @@ Begin VB.Form frmUtama
          AutoSize        =   -1  'True
          BackColor       =   &H00808080&
          BackStyle       =   0  'Transparent
-         Caption         =   "o"
+         Caption         =   "i"
          BeginProperty Font 
             Name            =   "Wingdings 3"
             Size            =   20.25
@@ -163,7 +133,7 @@ Begin VB.Form frmUtama
          Index           =   1
          Left            =   0
          TabIndex        =   40
-         Top             =   0
+         Top             =   -120
          Width           =   255
       End
    End
@@ -172,14 +142,14 @@ Begin VB.Form frmUtama
       BackColor       =   &H00808080&
       BorderStyle     =   0  'None
       ForeColor       =   &H80000008&
-      Height          =   495
+      Height          =   375
       Index           =   0
-      Left            =   9840
-      ScaleHeight     =   495
-      ScaleWidth      =   975
+      Left            =   5760
+      ScaleHeight     =   375
+      ScaleWidth      =   1335
       TabIndex        =   37
-      Top             =   4440
-      Width           =   975
+      Top             =   3360
+      Width           =   1335
       Begin VB.Label lblArahAnim 
          AutoSize        =   -1  'True
          BackColor       =   &H00808080&
@@ -197,16 +167,16 @@ Begin VB.Form frmUtama
          ForeColor       =   &H00000000&
          Height          =   450
          Index           =   2
-         Left            =   360
+         Left            =   840
          TabIndex        =   38
-         Top             =   0
+         Top             =   -120
          Width           =   375
       End
    End
    Begin VB.Timer tmrAnim 
       Interval        =   100
-      Left            =   3120
-      Top             =   7320
+      Left            =   240
+      Top             =   6240
    End
    Begin VB.Frame Frame5 
       BackColor       =   &H00FFFFC0&
@@ -220,9 +190,9 @@ Begin VB.Form frmUtama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   975
-      Left            =   10800
+      Left            =   5400
       TabIndex        =   34
-      Top             =   6000
+      Top             =   5160
       Width           =   2055
       Begin VB.TextBox txtHijau 
          Appearance      =   0  'Flat
@@ -311,9 +281,9 @@ Begin VB.Form frmUtama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   975
-      Left            =   2160
+      Left            =   240
       TabIndex        =   31
-      Top             =   6120
+      Top             =   5160
       Width           =   2055
       Begin VB.TextBox txtHijau 
          Appearance      =   0  'Flat
@@ -402,7 +372,7 @@ Begin VB.Form frmUtama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   975
-      Left            =   10920
+      Left            =   5400
       TabIndex        =   28
       Top             =   600
       Width           =   2055
@@ -495,9 +465,9 @@ Begin VB.Form frmUtama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   975
-      Left            =   2280
+      Left            =   240
       TabIndex        =   25
-      Top             =   480
+      Top             =   720
       Width           =   1935
       Begin VB.TextBox txtHijau 
          Appearance      =   0  'Flat
@@ -579,9 +549,9 @@ Begin VB.Form frmUtama
    Begin VB.Frame Frame1 
       BackColor       =   &H00C0C0C0&
       Height          =   1215
-      Left            =   5640
+      Left            =   2520
       TabIndex        =   24
-      Top             =   7920
+      Top             =   5880
       Width           =   2655
       Begin VB.CommandButton cmdExit 
          BackColor       =   &H80000013&
@@ -660,302 +630,135 @@ Begin VB.Form frmUtama
    End
    Begin VB.Timer tmrLampu 
       Enabled         =   0   'False
-      Left            =   11640
-      Top             =   7200
+      Left            =   6840
+      Top             =   6360
    End
-   Begin VB.Shape Shape5 
+   Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   22
-      Left            =   720
-      Top             =   4080
-      Width           =   615
+      Height          =   495
+      Index           =   14
+      Left            =   4200
+      Top             =   3960
+      Width           =   135
    End
-   Begin VB.Shape Shape5 
+   Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   21
-      Left            =   1680
-      Top             =   4080
-      Width           =   615
+      Height          =   495
+      Index           =   12
+      Left            =   3240
+      Top             =   3960
+      Width           =   135
    End
-   Begin VB.Shape Shape5 
+   Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   20
-      Left            =   4320
-      Top             =   4080
-      Width           =   615
+      Height          =   495
+      Index           =   11
+      Left            =   3960
+      Top             =   3960
+      Width           =   135
    End
-   Begin VB.Shape Shape5 
+   Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   19
+      Height          =   495
+      Index           =   10
       Left            =   3480
-      Top             =   4080
-      Width           =   615
+      Top             =   3960
+      Width           =   135
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   15
-      Left            =   2520
-      Top             =   4080
+      Left            =   4680
+      Top             =   3600
       Width           =   615
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   27
-      Left            =   6840
-      Top             =   7320
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   26
-      Left            =   6840
-      Top             =   6600
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   22
-      Left            =   6840
-      Top             =   5880
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   25
-      Left            =   7320
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   24
-      Left            =   7560
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   23
-      Left            =   7320
-      Top             =   2400
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   21
-      Left            =   7560
-      Top             =   2400
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   20
-      Left            =   6360
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   19
-      Left            =   6120
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   18
-      Left            =   7080
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   17
-      Left            =   6600
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   16
-      Left            =   6840
-      Top             =   5280
-      Width           =   135
-   End
-   Begin VB.Shape Shape5 
-      BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   18
-      Left            =   10920
-      Top             =   4080
-      Width           =   615
-   End
-   Begin VB.Shape Shape5 
-      BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   17
-      Left            =   11880
-      Top             =   4080
-      Width           =   615
-   End
-   Begin VB.Shape Shape5 
-      BackStyle       =   1  'Opaque
-      Height          =   135
-      Index           =   16
-      Left            =   12720
-      Top             =   4080
-      Width           =   615
-   End
-   Begin VB.Shape Shape6 
-      BackStyle       =   1  'Opaque
-      Height          =   495
-      Index           =   15
-      Left            =   6840
-      Top             =   1680
-      Width           =   135
-   End
-   Begin VB.Image Image3 
-      Height          =   960
-      Left            =   6000
-      Picture         =   "formutama.frx":15E4
-      Top             =   360
-      Width           =   960
-   End
-   Begin VB.Image Image2 
-      Height          =   960
-      Left            =   840
-      Picture         =   "formutama.frx":26196
-      Top             =   4080
-      Width           =   960
-   End
-   Begin VB.Line Line3 
-      BorderColor     =   &H000000FF&
-      BorderWidth     =   3
-      X1              =   8760
-      X2              =   8760
-      Y1              =   3480
-      Y2              =   4920
-   End
-   Begin VB.Line Line2 
-      BorderColor     =   &H000000FF&
-      BorderWidth     =   3
-      X1              =   5160
-      X2              =   5160
-      Y1              =   3480
-      Y2              =   4800
-   End
-   Begin VB.Line Line1 
-      BorderColor     =   &H000000FF&
-      BorderWidth     =   3
-      Index           =   0
-      X1              =   6000
-      X2              =   7800
-      Y1              =   2400
-      Y2              =   2400
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   14
-      Left            =   8160
-      Top             =   4320
+      Left            =   4680
+      Top             =   2880
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   13
-      Left            =   8160
-      Top             =   3840
+      Left            =   4680
+      Top             =   2640
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   12
-      Left            =   8160
-      Top             =   4560
+      Left            =   4680
+      Top             =   3360
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   11
-      Left            =   5160
-      Top             =   4560
+      Left            =   2280
+      Top             =   3600
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   10
-      Left            =   5160
-      Top             =   3600
+      Left            =   2280
+      Top             =   2640
       Width           =   615
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   9
-      Left            =   6840
-      Top             =   2400
+      Left            =   4200
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   8
-      Left            =   6600
-      Top             =   2400
+      Left            =   3960
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   7
-      Left            =   7080
-      Top             =   2400
+      Left            =   3240
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   6
-      Left            =   6120
-      Top             =   2400
+      Left            =   3480
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   9
-      Left            =   5160
-      Top             =   4320
+      Left            =   2280
+      Top             =   3360
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   8
-      Left            =   5160
-      Top             =   3840
+      Left            =   2280
+      Top             =   2880
       Width           =   615
    End
    Begin VB.Label lblLampuHijau 
@@ -963,7 +766,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   2520
-      MouseIcon       =   "formutama.frx":27298
+      MouseIcon       =   "formutama.frx":15E4
       MousePointer    =   99  'Custom
       TabIndex        =   23
       Top             =   4080
@@ -973,11 +776,11 @@ Begin VB.Form frmUtama
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   2
-      Left            =   8040
-      MouseIcon       =   "formutama.frx":275A2
+      Left            =   4560
+      MouseIcon       =   "formutama.frx":18EE
       MousePointer    =   99  'Custom
       TabIndex        =   22
-      Top             =   5160
+      Top             =   3960
       Width           =   255
    End
    Begin VB.Label lblLampuHijau 
@@ -985,7 +788,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   1
       Left            =   5520
-      MouseIcon       =   "formutama.frx":278AC
+      MouseIcon       =   "formutama.frx":1BF8
       MousePointer    =   99  'Custom
       TabIndex        =   21
       Top             =   1920
@@ -995,11 +798,11 @@ Begin VB.Form frmUtama
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   0
-      Left            =   5160
-      MouseIcon       =   "formutama.frx":27BB6
+      Left            =   2640
+      MouseIcon       =   "formutama.frx":1F02
       MousePointer    =   99  'Custom
       TabIndex        =   20
-      Top             =   2880
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Label lblLampuKuning 
@@ -1007,7 +810,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   2040
-      MouseIcon       =   "formutama.frx":27EC0
+      MouseIcon       =   "formutama.frx":220C
       MousePointer    =   99  'Custom
       TabIndex        =   19
       Top             =   4200
@@ -1017,33 +820,33 @@ Begin VB.Form frmUtama
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   2
-      Left            =   8400
-      MouseIcon       =   "formutama.frx":281CA
+      Left            =   5040
+      MouseIcon       =   "formutama.frx":2516
       MousePointer    =   99  'Custom
       TabIndex        =   18
-      Top             =   5160
+      Top             =   3840
       Width           =   255
    End
    Begin VB.Label lblLampuKuning 
       BackStyle       =   0  'Transparent
-      Height          =   15
+      Height          =   255
       Index           =   1
-      Left            =   9000
-      MouseIcon       =   "formutama.frx":284D4
+      Left            =   4560
+      MouseIcon       =   "formutama.frx":2820
       MousePointer    =   99  'Custom
       TabIndex        =   17
-      Top             =   2040
+      Top             =   1800
       Width           =   255
    End
    Begin VB.Label lblLampuKuning 
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   0
-      Left            =   4800
-      MouseIcon       =   "formutama.frx":287DE
+      Left            =   2280
+      MouseIcon       =   "formutama.frx":2B2A
       MousePointer    =   99  'Custom
       TabIndex        =   16
-      Top             =   3000
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Label lblLampuMerah 
@@ -1051,7 +854,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   5760
-      MouseIcon       =   "formutama.frx":28AE8
+      MouseIcon       =   "formutama.frx":2E34
       MousePointer    =   99  'Custom
       TabIndex        =   15
       Top             =   4800
@@ -1062,7 +865,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   2
       Left            =   5520
-      MouseIcon       =   "formutama.frx":28DF2
+      MouseIcon       =   "formutama.frx":313E
       MousePointer    =   99  'Custom
       TabIndex        =   14
       Top             =   2280
@@ -1072,8 +875,8 @@ Begin VB.Form frmUtama
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   1
-      Left            =   8880
-      MouseIcon       =   "formutama.frx":290FC
+      Left            =   4680
+      MouseIcon       =   "formutama.frx":3448
       MousePointer    =   99  'Custom
       TabIndex        =   13
       Top             =   1440
@@ -1083,11 +886,11 @@ Begin VB.Form frmUtama
       BackStyle       =   0  'Transparent
       Height          =   255
       Index           =   0
-      Left            =   4560
-      MouseIcon       =   "formutama.frx":29406
+      Left            =   1920
+      MouseIcon       =   "formutama.frx":3752
       MousePointer    =   99  'Custom
       TabIndex        =   12
-      Top             =   3000
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Shape shpLampuHijau 
@@ -1095,9 +898,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   3
-      Left            =   5520
+      Left            =   2520
       Shape           =   3  'Circle
-      Top             =   5280
+      Top             =   3960
       Width           =   255
    End
    Begin VB.Shape shpLampuHijau 
@@ -1105,9 +908,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   2
-      Left            =   8040
+      Left            =   4680
       Shape           =   3  'Circle
-      Top             =   5160
+      Top             =   3960
       Width           =   255
    End
    Begin VB.Shape shpLampuHijau 
@@ -1115,9 +918,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   1
-      Left            =   8400
+      Left            =   4680
       Shape           =   3  'Circle
-      Top             =   2760
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Shape shpLampuHijau 
@@ -1125,9 +928,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   0
-      Left            =   5160
+      Left            =   2640
       Shape           =   3  'Circle
-      Top             =   3000
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Shape shpLampuKuning 
@@ -1135,9 +938,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   3
-      Left            =   5520
+      Left            =   2520
       Shape           =   3  'Circle
-      Top             =   5640
+      Top             =   4320
       Width           =   255
    End
    Begin VB.Shape shpLampuKuning 
@@ -1145,9 +948,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   2
-      Left            =   8400
+      Left            =   5040
       Shape           =   3  'Circle
-      Top             =   5160
+      Top             =   3960
       Width           =   255
    End
    Begin VB.Shape shpLampuKuning 
@@ -1155,9 +958,9 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   0
-      Left            =   4800
+      Left            =   2280
       Shape           =   3  'Circle
-      Top             =   3000
+      Top             =   2160
       Width           =   255
    End
    Begin VB.Shape shpLampuKuning 
@@ -1165,113 +968,161 @@ Begin VB.Form frmUtama
       BackStyle       =   1  'Opaque
       Height          =   255
       Index           =   1
-      Left            =   8400
-      Shape           =   3  'Circle
-      Top             =   2280
-      Width           =   255
-   End
-   Begin VB.Shape shpLampuMerah 
-      BackColor       =   &H000000FF&
-      BackStyle       =   1  'Opaque
-      Height          =   255
-      Index           =   2
-      Left            =   8760
-      Shape           =   3  'Circle
-      Top             =   5160
-      Width           =   255
-   End
-   Begin VB.Shape shpLampuMerah 
-      BackColor       =   &H000000FF&
-      BackStyle       =   1  'Opaque
-      Height          =   255
-      Index           =   3
-      Left            =   5520
-      Shape           =   3  'Circle
-      Top             =   6000
-      Width           =   255
-   End
-   Begin VB.Shape shpLampuMerah 
-      BackColor       =   &H000000FF&
-      BackStyle       =   1  'Opaque
-      Height          =   255
-      Index           =   0
-      Left            =   4440
-      Shape           =   3  'Circle
-      Top             =   3000
-      Width           =   255
-   End
-   Begin VB.Shape shpLampuMerah 
-      BackColor       =   &H000000FF&
-      BackStyle       =   1  'Opaque
-      Height          =   255
-      Index           =   1
-      Left            =   8400
+      Left            =   4680
       Shape           =   3  'Circle
       Top             =   1800
       Width           =   255
    End
+   Begin VB.Shape shpLampuMerah 
+      BackColor       =   &H000000FF&
+      BackStyle       =   1  'Opaque
+      Height          =   255
+      Index           =   2
+      Left            =   5400
+      Shape           =   3  'Circle
+      Top             =   3960
+      Width           =   255
+   End
+   Begin VB.Shape shpLampuMerah 
+      BackColor       =   &H000000FF&
+      BackStyle       =   1  'Opaque
+      Height          =   255
+      Index           =   3
+      Left            =   2520
+      Shape           =   3  'Circle
+      Top             =   4680
+      Width           =   255
+   End
+   Begin VB.Shape shpLampuMerah 
+      BackColor       =   &H000000FF&
+      BackStyle       =   1  'Opaque
+      Height          =   255
+      Index           =   0
+      Left            =   1920
+      Shape           =   3  'Circle
+      Top             =   2160
+      Width           =   255
+   End
+   Begin VB.Shape shpLampuMerah 
+      BackColor       =   &H000000FF&
+      BackStyle       =   1  'Opaque
+      Height          =   255
+      Index           =   1
+      Left            =   4680
+      Shape           =   3  'Circle
+      Top             =   1440
+      Width           =   255
+   End
+   Begin VB.Shape Shape6 
+      BackStyle       =   1  'Opaque
+      Height          =   495
+      Index           =   5
+      Left            =   3720
+      Top             =   5160
+      Width           =   135
+   End
+   Begin VB.Shape Shape6 
+      BackStyle       =   1  'Opaque
+      Height          =   495
+      Index           =   4
+      Left            =   3720
+      Top             =   4560
+      Width           =   135
+   End
+   Begin VB.Shape Shape6 
+      BackStyle       =   1  'Opaque
+      Height          =   495
+      Index           =   3
+      Left            =   3720
+      Top             =   3960
+      Width           =   135
+   End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   2
-      Left            =   6840
-      Top             =   240
+      Left            =   3720
+      Top             =   720
       Width           =   135
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   1
-      Left            =   6840
-      Top             =   960
+      Left            =   3720
+      Top             =   1320
       Width           =   135
    End
    Begin VB.Shape Shape6 
       BackStyle       =   1  'Opaque
       Height          =   495
       Index           =   0
-      Left            =   6360
-      Top             =   2400
+      Left            =   3720
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   7
-      Left            =   10080
-      Top             =   4080
+      Left            =   6840
+      Top             =   3120
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   6
-      Left            =   9120
-      Top             =   4080
+      Left            =   6120
+      Top             =   3120
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   5
-      Left            =   8160
-      Top             =   4080
+      Left            =   5400
+      Top             =   3120
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   4
-      Left            =   8160
-      Top             =   3600
+      Left            =   4680
+      Top             =   3120
+      Width           =   615
+   End
+   Begin VB.Shape Shape5 
+      BackStyle       =   1  'Opaque
+      Height          =   135
+      Index           =   3
+      Left            =   120
+      Top             =   3120
       Width           =   615
    End
    Begin VB.Shape Shape5 
       BackStyle       =   1  'Opaque
       Height          =   135
       Index           =   2
-      Left            =   5160
-      Top             =   4080
+      Left            =   2280
+      Top             =   3120
+      Width           =   615
+   End
+   Begin VB.Shape Shape5 
+      BackStyle       =   1  'Opaque
+      Height          =   135
+      Index           =   1
+      Left            =   1560
+      Top             =   3120
+      Width           =   615
+   End
+   Begin VB.Shape Shape5 
+      BackStyle       =   1  'Opaque
+      Height          =   135
+      Index           =   0
+      Left            =   840
+      Top             =   3120
       Width           =   615
    End
    Begin VB.Label lblJudul 
@@ -1289,7 +1140,7 @@ Begin VB.Form frmUtama
       EndProperty
       ForeColor       =   &H00FF0000&
       Height          =   270
-      Left            =   5880
+      Left            =   1080
       TabIndex        =   0
       Top             =   120
       Width           =   5250
@@ -1298,20 +1149,20 @@ Begin VB.Form frmUtama
       BackColor       =   &H00808080&
       BackStyle       =   1  'Opaque
       BorderStyle     =   0  'Transparent
-      Height          =   8895
-      Left            =   6000
-      Top             =   0
-      Width           =   1815
+      Height          =   5295
+      Left            =   3000
+      Top             =   600
+      Width           =   1575
    End
    Begin VB.Shape Shape1 
       BackColor       =   &H00808080&
       BackStyle       =   1  'Opaque
       BorderStyle     =   0  'Transparent
-      Height          =   1695
+      Height          =   1335
       Index           =   0
       Left            =   120
-      Top             =   3360
-      Width           =   13815
+      Top             =   2520
+      Width           =   7455
    End
 End
 Attribute VB_Name = "frmUtama"
@@ -1320,10 +1171,10 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
-Private Declare Function Inp Lib "input.dll" _
+Private Declare Function Inp Lib "inpout32.dll" _
 Alias "Inp32" (ByVal PortAddress As Integer) As Integer
 
-Private Declare Sub Out Lib "input32.dll" _
+Private Declare Sub Out Lib "inpout32.dll" _
 Alias "Out32" (ByVal PortAddress As Integer, ByVal Value As Integer)
 
 Dim pantul As Integer

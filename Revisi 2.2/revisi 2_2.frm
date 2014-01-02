@@ -23,13 +23,6 @@ Begin VB.Form frmUtama
    ScaleWidth      =   13365
    ShowInTaskbar   =   0   'False
    StartUpPosition =   2  'CenterScreen
-   Begin VB.Timer tmrArah 
-      Enabled         =   0   'False
-      Index           =   1
-      Interval        =   1
-      Left            =   11760
-      Top             =   1800
-   End
    Begin VB.CommandButton Command3 
       Height          =   255
       Left            =   8040
@@ -597,9 +590,9 @@ Begin VB.Form frmUtama
          EndProperty
          Height          =   855
          Left            =   1800
-         MouseIcon       =   "formutama.frx":0000
+         MouseIcon       =   "revisi 2_2.frx":0000
          MousePointer    =   99  'Custom
-         Picture         =   "formutama.frx":030A
+         Picture         =   "revisi 2_2.frx":030A
          Style           =   1  'Graphical
          TabIndex        =   11
          Top             =   240
@@ -619,9 +612,9 @@ Begin VB.Form frmUtama
          EndProperty
          Height          =   855
          Left            =   960
-         MouseIcon       =   "formutama.frx":074C
+         MouseIcon       =   "revisi 2_2.frx":074C
          MousePointer    =   99  'Custom
-         Picture         =   "formutama.frx":0A56
+         Picture         =   "revisi 2_2.frx":0A56
          Style           =   1  'Graphical
          TabIndex        =   10
          Top             =   240
@@ -641,9 +634,9 @@ Begin VB.Form frmUtama
          EndProperty
          Height          =   855
          Left            =   120
-         MouseIcon       =   "formutama.frx":0E98
+         MouseIcon       =   "revisi 2_2.frx":0E98
          MousePointer    =   99  'Custom
-         Picture         =   "formutama.frx":11A2
+         Picture         =   "revisi 2_2.frx":11A2
          Style           =   1  'Graphical
          TabIndex        =   9
          Top             =   240
@@ -834,14 +827,14 @@ Begin VB.Form frmUtama
    Begin VB.Image Image3 
       Height          =   960
       Left            =   6000
-      Picture         =   "formutama.frx":15E4
+      Picture         =   "revisi 2_2.frx":15E4
       Top             =   360
       Width           =   960
    End
    Begin VB.Image Image2 
       Height          =   960
       Left            =   840
-      Picture         =   "formutama.frx":26196
+      Picture         =   "revisi 2_2.frx":26196
       Top             =   4080
       Width           =   960
    End
@@ -963,7 +956,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   2520
-      MouseIcon       =   "formutama.frx":27298
+      MouseIcon       =   "revisi 2_2.frx":27298
       MousePointer    =   99  'Custom
       TabIndex        =   23
       Top             =   4080
@@ -974,7 +967,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   2
       Left            =   8040
-      MouseIcon       =   "formutama.frx":275A2
+      MouseIcon       =   "revisi 2_2.frx":275A2
       MousePointer    =   99  'Custom
       TabIndex        =   22
       Top             =   5160
@@ -985,7 +978,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   1
       Left            =   5520
-      MouseIcon       =   "formutama.frx":278AC
+      MouseIcon       =   "revisi 2_2.frx":278AC
       MousePointer    =   99  'Custom
       TabIndex        =   21
       Top             =   1920
@@ -996,7 +989,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   0
       Left            =   5160
-      MouseIcon       =   "formutama.frx":27BB6
+      MouseIcon       =   "revisi 2_2.frx":27BB6
       MousePointer    =   99  'Custom
       TabIndex        =   20
       Top             =   2880
@@ -1007,7 +1000,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   2040
-      MouseIcon       =   "formutama.frx":27EC0
+      MouseIcon       =   "revisi 2_2.frx":27EC0
       MousePointer    =   99  'Custom
       TabIndex        =   19
       Top             =   4200
@@ -1018,7 +1011,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   2
       Left            =   8400
-      MouseIcon       =   "formutama.frx":281CA
+      MouseIcon       =   "revisi 2_2.frx":281CA
       MousePointer    =   99  'Custom
       TabIndex        =   18
       Top             =   5160
@@ -1029,7 +1022,7 @@ Begin VB.Form frmUtama
       Height          =   15
       Index           =   1
       Left            =   9000
-      MouseIcon       =   "formutama.frx":284D4
+      MouseIcon       =   "revisi 2_2.frx":284D4
       MousePointer    =   99  'Custom
       TabIndex        =   17
       Top             =   2040
@@ -1040,7 +1033,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   0
       Left            =   4800
-      MouseIcon       =   "formutama.frx":287DE
+      MouseIcon       =   "revisi 2_2.frx":287DE
       MousePointer    =   99  'Custom
       TabIndex        =   16
       Top             =   3000
@@ -1051,7 +1044,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   3
       Left            =   5760
-      MouseIcon       =   "formutama.frx":28AE8
+      MouseIcon       =   "revisi 2_2.frx":28AE8
       MousePointer    =   99  'Custom
       TabIndex        =   15
       Top             =   4800
@@ -1062,7 +1055,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   2
       Left            =   5520
-      MouseIcon       =   "formutama.frx":28DF2
+      MouseIcon       =   "revisi 2_2.frx":28DF2
       MousePointer    =   99  'Custom
       TabIndex        =   14
       Top             =   2280
@@ -1073,7 +1066,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   1
       Left            =   8880
-      MouseIcon       =   "formutama.frx":290FC
+      MouseIcon       =   "revisi 2_2.frx":290FC
       MousePointer    =   99  'Custom
       TabIndex        =   13
       Top             =   1440
@@ -1084,7 +1077,7 @@ Begin VB.Form frmUtama
       Height          =   255
       Index           =   0
       Left            =   4560
-      MouseIcon       =   "formutama.frx":29406
+      MouseIcon       =   "revisi 2_2.frx":29406
       MousePointer    =   99  'Custom
       TabIndex        =   12
       Top             =   3000
